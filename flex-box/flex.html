@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+         .container{
+             /* margin-top: 20px; */
+           display: flex; 
+           /* margin-left: -15px;
+           margin-right: -15px;  */
+             /* background-color: chocolate; */
+            padding-top: 20px;
+              
+              
+             margin: auto;
+            width: 600px;
+            
+            
+        }
+        .colummn{
+            background-color: rgb(127, 255, 148);
+            margin-left: 15px;
+            margin-right: 15px;
+           text-align: center;
+         border-radius: 4px;
+         box-shadow: 5px 5px 10px;
+        }
+        img{
+            
+            margin: 10px;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px;
+            
+        } 
+        button{
+            padding: 10px;
+            margin: 10px;
+        
+        }
+
+        @media screen and (max-width:700px) {
+
+            .colummn{
+                /* text-align: center; */
+                align-items: center;
+                background-color: rgb(182, 240, 124);
+                display: flex;
+                flex-direction: column-reverse;
+                margin: 15px;
+               
+            }
+            
+            .container{
+              
+               flex-direction: column;
+            }
+           
+        }
+    </style>
+    
+</head>
+<body> 
+    
+    <div class="container">
+
+       <div class="colummn">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE18p9pZmknXVf1ZMEZwZjfLEdyVm1X9OrUA&usqp=CAU" >
+            <div class="block">
+                <h4>Akash Sondarva</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sint, laborum </p>
+                <button>submit</button>
+                
+            </div>
+        </div>
+        <div class="colummn">
+            <img src="https://wallpaperaccess.com/full/180289.jpg" >
+            <div class="block">
+                <h4>Akash Sondarva</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sint, laborum </p>
+                <button>submit</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        
+        <div class="colummn">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCEuDVZbZkC4N4WAklaQCurFiC9FTxFMHxxUTugY34En4jdmPYQ4FS37hBYIlybjwddkM&usqp=CAU" >
+             <div class="block">
+                 <h4>Akash Sondarva</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sint, laborum </p>
+                 <button>submit</button>
+                 
+             </div>
+         </div>
+         <div class="colummn">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuXspiCHZV-sOuJMa4qg7RM22rBk2JFGzBA&usqp=CAU" >
+             <div class="block">
+                 <h4>Akash Sondarva</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sint, laborum </p>
+                 <button>submit</button>
+             </div>
+         </div>
+         
+     </div>
+
+    
+    </body>
+</html>

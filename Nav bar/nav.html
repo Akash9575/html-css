@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .grid-container{
+            
+            padding: 20px;
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            column-gap: 20PX;
+            row-gap: 30px;
+            margin-top: 80px;
+        }
+        .img{
+            width: 200px;
+            height: 120px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px;
+        }
+        .grid-item{
+            padding: 20PX;
+            text-align: center;
+            width: 250px;
+            background-color: rgb(126, 171, 255);
+            box-shadow: 5PX 5px 10px;
+            border-radius: 5PX;
+            margin: auto;
+        }
+        button{
+            margin: 10px;
+            padding: 5px;
+            width: 100px;
+            border-radius: 3px;
+        }
+
+
+
+        ul{
+              list-style-type: none;
+
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            top: 0%;
+            position: fixed;
+            width: 100%;
+            
+        }
+        li a{
+            text-decoration: none;
+            display: block;
+            font-size: 20px ;
+            padding: 14px 15px;
+            color: white;
+          
+
+        }
+        .active{
+            background-color: rgb(42, 235, 83);
+            
+        }
+        li a:hover{
+            background-color: rgb(42, 235, 83);
+
+        }
+        li{
+            
+            float: left;
+            padding: 10px;
+        }
+        h3{
+            margin: 20px;
+        }
+        h4{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="home">home</a></li>
+        <li><a href="page">page</a></li>
+        <li><a href="address">address</a></li>
+        <li><a href="dashboard">dashboard</a></li>
+        <li style="float: right;"><a class="active" href="active">active</a></li>
+
+
+    </ul>
+    
+    <div class="grid-container">
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=3">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=2">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=4">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+        
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=1">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://en.free-wallpapers.su/data/media/3/big/anm7493.jpg">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=5">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=6">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+
+        <div class="grid-item">
+            <img class="img" src="https://picsum.photos/200/300?random=7">
+            <h3>item name</h3>
+            <h4>$400</h4>
+            <p>Welcome to the website. If you're here, you're likely looking to find random words. Random Word Generator is the perfect</p>
+            <button>buy</button>
+        </div>
+    </div>
+</body>
+</html>

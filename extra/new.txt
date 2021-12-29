@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='akash.css'>
+    <!-- <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap-grid.min.css"> -->
+
+    <script src="./a.js"></script>
+
+</head>
+<body>
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancle"></i>
+
+    </label>
+    
+    <div class="sidebar">
+        <header>website</header>
+        <ul>
+            <li><c href="#">code</c></li>
+            <li><c href="#">dashbord</c></li>
+            <li><c href="#">message</c></li>
+            <li><c href="#">setting</c></li>
+
+        </ul>
+
+    </div>
+  <section>
+    <div class="back">
+    <nav>
+        
+        
+      
+            
+            <!-- <img src="ace.jpg" class="nav_image" alt=""/>      -->
+
+        <label class="logo">SoundAMP </label>
+               
+   
+        <ul>
+          <li><a class="active" href="#">HTML</a></li>
+          <li><a href="#">HTML templet</a></li>
+          <li><a href="#">Download</a></li>
+          
+        </ul>
+      </nav>
+
+   
+        
+        <div class="imgtext">
+            <img src="Madara.jpg"  id="img">
+            <div class="centered">All Event</div>
+        </div>
+
+        <div class="main">
+
+            <!--cards -->
+           
+           <div class="card">
+           
+                <div class="image">
+                  <img src="madara.jpg">
+                </div>
+          
+                <div class="title">
+                    <h2>Akash</h2>
+                    <h1> Write title Here</h1>
+                </div>
+
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+                </div>
+            
+                <div class="b">
+                     <button>Read More</button>
+                </div>
+           
+           </div>
+           
+            <!--cards -->
+           
+            <div class="card">
+           
+                <div class="image">
+                   <img src="zoro.jpg">
+                </div>
+
+                <div class="title">
+                    <h2>Akash</h2>
+                    <h1>Write title Here</h1>
+                </div>
+
+                <div class="des">
+                 <p>You can Add Desccription Here...</p>
+                </div>
+
+                <div class="b">
+                    <button>Read More</button>
+                </div>
+                
+            </div>
+
+                <!--cards -->
+           
+            <div class="card">
+           
+                <div class="image">
+                   <img src="itachi.jpg">
+                </div>
+
+                <div class="title">
+                    <h2>Akash</h2>
+                    <h1>Write title Here</h1>
+                </div>
+
+                <div class="des">
+                 <p>You can Add Desccription Here...</p>
+            
+                </div>
+                <div class="b">
+                    <button>Read More</button>
+                   </div>
+            </div>
+
+                 <!--cards -->
+           
+            <div class="card"> 
+           
+                <div class="image">
+                   <img src="tanjiro.jpg">
+                </div>
+
+                <div class="title">
+                    <h2>Akash</h2>
+                    <h1>Write title Here</h1>
+                </div>
+
+                <div class="des">
+                    <p>You can Add Desccription Here...</p>
+               </div>
+
+               <div class="b">
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            
+             <!--cards -->
+        
+               
+            
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+  .nav_image
+  {
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  body{
+    background-color: gray;
+    font-family: montserrat;
+  }
+  nav{
+    background: #000000;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    
+    color: white;
+    font-size: 35px;
+    padding-left: 60px;
+    font-weight: bold;
+    line-height: 80px;
+   
+
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    
+  }
+  a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+
+  #img{
+   
+    width: 100%;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+     
+}
+#img1{
+   
+    width: 100px;
+    height: 100px;
+   
+  
+     
+}
+.centered {
+    position: absolute;
+    font-weight: bold;
+    top: 28%;
+    left: 85%;
+    color: white;
+    font-size: 30px;
+    padding: 7px 7px;
+    padding-right: 50px;
+  }
+
+ .back{
+     background-color: gray
+ }
+  
+.main{
+
+    margin: 2%;
+   }
+
+   .card{
+       background-color: white;
+        width: 20%;
+        display: inline-block;
+        border-radius: 5px; 
+        box-shadow: 2px 2px 20px black;
+        margin: 2.35%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: left;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 30px;
+    }
+    h2{
+        font-size: 12px;
+        padding-bottom: 5px;
+        color: gray;
+       }
+   .des{
+     padding: 10px;
+     text-align: left;
+      color: gray;
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   .b{
+    text-align: center;
+   }
+   button{
+    text-align: center;
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid  black;
+     border-radius: 20px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: #1b9bff;
+     color: white;
+     transition: .5s;
+   }
+
+   .sidebar{
+       position: fixed;
+       left: -250px;
+       width: 250px;
+       height: 100%;
+       background: #525a5e;
+       transition: all .5s ease;
+   }
+
+   .sidebar header{
+       font-size: 25px;
+       color: white;
+       text-align: center;
+       line-height: 70px;
+       background: cornflowerblue;
+   }
+
+   .sidebar ul c{
+       display: block;
+       height: 100%;
+       width: 100%;
+       line-height: 65px;
+       font-size: 20px;
+       color: white;
+       padding-left: 40px;
+       box-sizing: border-box;
+       border-top: 1px solid rgba(255, 225, 225, .1) ;
+       border-bottom: 1px solid black;
+   }
+
+   ul li:hover c{
+       padding-left: 50px;
+       transition: .4s;
+   }
+
+   #check{
+    display: none;
+  }
+
+
+  label #btn{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-size: 30px;
+    color: white;
+    transition: all .5s ease;
+  }
+  label #cancle{
+   position: fixed;
+   z-index: 1111;
+   left: -195px;
+   top: 25px; 
+   font-size: 20px;
+   color: white;
+   transition: all .5s ease;
+
+ }
+
+  #check:checked ~.sidebar{
+    left: 0;
+  }
+
+  #check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+  }
+
+  #check:checked ~label #cancle{
+    left: 195px;
+   
+  }
+  #check:checked ~section{
+    margin-left: 250px;
+  }
+
+  section{
+    transition: all .5s ease;
+  }
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .header{
+            background-color: tomato;            
+            display: flex;
+            padding: 10px;
+            
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        .sec{
+            text-align: center;
+            background-image: url("https://c4.wallpaperflare.com/wallpaper/516/46/468/anime-naruto-boy-madara-uchiha-wallpaper-preview.jpg");
+            background-size: cover;
+            background-position: center;
+            
+            padding: 100px 0px;
+            height: 700px;
+
+        }
+        .footer{
+            background-color: burlywood;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .nav-bar{
+            margin: 0%;
+            padding: 0%;
+            list-style-type: none;
+            
+        }
+        .nav-item{
+            display: inline-block;
+        }
+        .nav-link{
+            border-radius: 5px;
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            font-size: 20px;
+        }
+        .header .nav-link:hover{
+            background-color: rgb(194, 57, 57);
+        }
+        .footer .nav-link:hover{
+            color: rgb(255, 251, 251);
+        }
+        .logo{
+            height: 50px;
+        }
+        .title{
+            color: white;
+           font-size: 90px;
+           
+        }
+        .desc{
+            margin: auto;
+            color: white;
+            font-size: 20px;
+             width: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-hand-drawn-cute-vegetarian-green-leaf-logo-image_1337225.jpg">
+        <ul class="nav-bar">
+            <li class="nav-item"><a class="nav-link" href="home">home</a></li>
+            <li class="nav-item"><a class="nav-link" href="page">page</a></li>
+            <li class="nav-item"><a class="nav-link" href="dashboard">dashboard</a></li>
+        </ul>
+    </header>
+
+    <section class="sec">
+        <h1 class="title"> Banner Title</h1>
+        <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, eum harum dolorum rerum expedita optio placeat quisquam cumque similique nesciunt sint quidem esse ipsam ex possimus. Temporibus amet aperiam enim.</p>
+    </section>
+
+    <footer class="footer">
+
+        <ul class="nav-bar">
+            <li class="nav-item"><a class="nav-link" href="home">home</a></li>
+            <li class="nav-item"><a class="nav-link" href="page">page</a></li>
+            <li class="nav-item"><a class="nav-link" href="dashboard">dashboard</a></li>
+
+        </ul>
+        <img class="logo" src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-hand-drawn-cute-vegetarian-green-leaf-logo-image_1337225.jpg">
+
+
+    </footer>
+    
+</body>
+</html>
